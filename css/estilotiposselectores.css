@@ -31,8 +31,20 @@ input:focus {
     color: red;
     font-size: 40px;
 }
+/*
+img[alt="No1"] {
+    width: 80px;
+    height: 50px;
+}
+*/
 
 img[alt*="UCE"] {
     width: 80px;
     height: 50px;
+}
+
+/*Selector Universal*/
+
+* {
+    
 }
