@@ -28,13 +28,13 @@ function evaluarOperacion(tipo){
         resultado=sumar(num1,num2)
     }
     if(tipo==='-'){
-        return restar;
+        resultado=restar(num1,num2)
     }
     if(tipo==='*'){
-        return multiplicar;
+        resultado=multiplicar(num1,num2)
     }
     if(tipo==='/'){
-        return dividir;
+        resultado=dividir(num1,num2)
     }
     document.getElementById('id_resultado').innerText=resultado;
 }
