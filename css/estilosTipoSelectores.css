@@ -1,0 +1,41 @@
+/*Selector por clase*/
+.titulos {
+    color: red;
+    font-size: 30px;
+    background-color: blue;
+}
+
+/*Selector por ID*/
+#id_titulo {
+    color: black;
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Selector por Pseudo Clases*/
+i:hover {
+    color: blue;
+    font-size: 50px;
+}
+
+input:focus {
+    border: 20px solid blueviolet;
+    background-color: red;
+}
+
+/*Selector por Atributo*/
+[id] {
+    color: brown;
+    font-size: 40px;
+}
+/*
+img[alt*="No2"] {
+    width: 80px;
+    height: 50px;
+}
+*/
+img[alt*="uce"] {
+    width: 80px;
+    height: 50px;
+}
+/*Selector por Universal*/
