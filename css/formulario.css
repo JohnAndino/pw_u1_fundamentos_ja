@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    background: orange;
+}
+
+/* habilite el contenido del attributo type*/
+p:before {
+    content: attr(type);
+    display: block;
+    /* hace que ocupe el bloque completo y no lo comparta con nadie, el otro elemento se pone arriba*/
+    font-size: 20px;
+    color: #5f420c;
+    margin-top: 35px;
+}
+
+input {
+    width: 270px;
+    border: none;
+    border-bottom: 2px solid #5050e0;
+    background: none;
+    color: #5f420c;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 3px solid #000074;
+}
+
+.formulario {
+    background: #a4a4da;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 10px 30px #1c1c25;
+}
+
+button {
+    background: #7272da;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: orange;
+    margin-top: 20px;
+}
+
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+}
+
+h2,header {
+    color: #5050e0;
+    border-bottom: 2px solid #191947;
+    font-size: 35px;
+}
