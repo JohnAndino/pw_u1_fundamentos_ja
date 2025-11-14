@@ -41,11 +41,12 @@ input:focus {
 }
 
 button {
-    background: #7272da;
+    background: violet;
     padding: 10px 20px;
     border-radius: 10px;
     color: orange;
     margin-top: 20px;
+    animation: inf 2s 0s infinite;
 }
 
 .centrar-boton {
@@ -57,4 +58,41 @@ h2,header {
     color: #5050e0;
     border-bottom: 2px solid #191947;
     font-size: 35px;
+
+}
+
+.msg_error {
+    background: #aeaeb6;
+    border-left: 5px solid red;
+    padding: 10px;
+    color: rgb(129, 18, 18);
+    /*display: none;*/
+    font-weight: bold;
+}
+
+.error_asterisco {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+@keyframes inf {
+    0%{
+        background: #a4a4da;
+    }
+    25%{
+        background: #000074;
+    }
+    50%{
+        background: #5f420c;
+    }
+    75%{
+        background: #609e7a;
+    }
+    100% {
+        background: #aeaeb6;
+    }
+
 }
