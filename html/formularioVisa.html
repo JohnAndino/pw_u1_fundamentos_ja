@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/formularioVisa.css">
+</head>
+
+<body>
+
+    <div class="Container">
+        <header></header>
+        <div class="imagen">
+                    <img src="../img/Visa.png" alt="img">
+        </div>
+        <div class="Formulario">
+            <nav></nav>
+            <section>
+                <div></div>
+                <form action="#">
+                    <h1>Payment Details</h1>
+                    <div id="id_msg_error" class="msg_error"></div>
+                    <p type="Cardholder Name"><input id="id_Cardoholder_Nme" type="text" placeholder="Mrs Kate Smith">
+                        <span id="id_error_cardholder" class="error_asterisco"></span>
+                    </p>
+                    <p type="Card Number"><input id="id_Card_number" type="number" placeholder="0000 0000 0000 0000"
+                            maxlength="16">
+                        <span id="id_error_card_number" class="error_asterisco"></span>
+                    </p>
+                    <div class="card_info">
+                        <p type="Exp Date"><input id="id_Exp_Date" type="text" placeholder="MM/YY" maxlength="5"
+                                pattern="(0[1-9]|1[0-2])\/\d{2}" required>
+                            <span id="id_error_card_info" class="error_asterisco"></span>
+                        </p>
+                        <p type="CVV"><input id="id_cvv" type="number" placeholder="0000" maxlength="4">
+                            <span id="id_error_cvv" class="error_asterisco"></span>
+                        </p>
+
+                    </div>
+                    <div class="centrar-boton">
+                        <button onclick="">Confirm</button>
+                    </div>
+                </form>
+        </div>
+        </section>
+        <aside></aside>
+    </div>
+    <footer></footer>
+    </div>
+</body>
+
+</html>

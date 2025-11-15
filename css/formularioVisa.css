@@ -1,0 +1,77 @@
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.card_info {
+    display: flex;
+    grid-template-columns: 75px 75px;
+    grid-template-rows: 75px;
+    gap: 20px;
+
+
+}
+
+/* habilite el contenido del attributo type*/
+p:before {
+    content: attr(type);
+    display: block;
+    /* hace que ocupe el bloque completo y no lo comparta con nadie, el otro elemento se pone arriba*/
+    font-size: 20px;
+    color: #5f420c;
+    margin-top: 35px;
+
+}
+
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px
+}
+
+input {
+    width: 270px;
+    border-color:  gray;
+    border-radius: 4px;
+    color: gray;
+    padding: 10px;
+
+}
+
+#id_Exp_Date {
+    width: 120px;
+}
+
+#id_cvv {
+    width: 120px;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img[alt="img"] {
+    width: 300px;
+    height: 200px;
+}
+
+button {
+    width: 300px;
+    background: rgb(122, 83, 226);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
