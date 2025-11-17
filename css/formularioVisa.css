@@ -14,10 +14,18 @@
 
 .card_info {
     display: flex;
+    flex-direction: row;
     grid-template-columns: 75px 75px;
     grid-template-rows: 75px;
     gap: 20px;
 
+
+}
+
+h1 {
+    color: #7a53e2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
 
 }
 
@@ -26,9 +34,11 @@ p:before {
     content: attr(type);
     display: block;
     /* hace que ocupe el bloque completo y no lo comparta con nadie, el otro elemento se pone arriba*/
-    font-size: 20px;
-    color: #5f420c;
+    font-size: 15px;
+    color: #706f6c;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 35px;
+    margin-bottom: 10px;
 
 }
 
@@ -39,20 +49,47 @@ p:before {
 }
 
 input {
-    width: 270px;
-    border-color:  gray;
+    border-color: rgb(223, 222, 222);
     border-radius: 4px;
-    color: gray;
+    border-style: solid;
     padding: 10px;
 
 }
 
+#id_Cardoholder_Nme {
+    width: 300px;
+    background-image: url('../img/symbole-masculin-icone-l-utilisateur-gris.png');
+    background-size: 18px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+}
+
+#id_Card_number {
+    width: 300px;
+    background-image: url('../img/icone-tarjet.png');
+    background-size: 18px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+}
+
 #id_Exp_Date {
     width: 120px;
+    background-image: url('../img/icone-de-calendrier-gris.png');
+    background-size: 18px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 35px;
 }
 
 #id_cvv {
     width: 120px;
+    background-image: url('../img/icone-de-cadenas-de-securite-gris.png');
+    background-size: 18px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 35px;
 }
 
 .imagen {
@@ -68,10 +105,14 @@ img[alt="img"] {
 }
 
 button {
-    width: 300px;
-    background: rgb(122, 83, 226);
-    padding: 10px 20px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /*width: 300px;*/
+    background: #7a53e2;
+    padding: 10px;
     border-radius: 10px;
+    border: none;
     color: white;
     margin-top: 20px;
 }

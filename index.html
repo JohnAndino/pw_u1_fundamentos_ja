@@ -1,182 +1,146 @@
 <!DOCTYPE html>
-<!--Nos permite definir el tipo de documento y la versión de HTML que se está utilizando.-->
 <html lang="es">
 
-	<head>
-		<!--Es un elemento donde se programa la informacion de la pagina web. es decir lo que no ve el usuario final.-->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>MI primera página web</title>
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+</head>
 
-	<body>
-		<!--// Es el elemento donde se programa la informacion visible para el usuario final.-->
+<body>
+    <header>
+        <h1>Universidad Central del Ecuador</h1>
+        <h5>Carrera de Computación</h5>
+    </header>
 
-		<header>
-			<!-- Representa la cabecera de mi pagina web-->
-			<h1>Universidad Central del Ecuador</h1>
-			<h5>Carrera de computación</h5>
-		</header>
-		<nav>
-			<!--Una barra de navegacion-->
+    <nav>
+    </nav>
+    <section>
+        <!-- Cabeceras de secciones-->
+        <h3>Mi primera pagina web</h3>
+        <h4>Estudiante</h4>
 
-		</nav>
-		<section>
-			<!-- El contenido principal de la página web-->
-			<!--Cabecera de secciones-->
-			<h3>
-			Mi primera página web
-			</h3>
-				<h4>
-			Estudiante
-			</h4>
+        <!--Parrafos-->
+        <p>Mi primer parrafo</p>
+        <p>Lorem ipsum dolor sit amet.</p>
 
-			<!-- Parrafos-->
-				<p>
-			Mi primer parrafo
-			</p>
-				<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatem.
-			</p>
+        <!--textos-->
+        <strong>texto que quiero resaltar</strong>
+        <br> <!--Salto de linea-->
+        <em>Texto en cursiva resaltado</em>
+        <i>Texto en cursiva</i>
+        <u>Texto subrayado</u>
+        <hr> <!--linea horizontal-->
+        <s>Texto eliminado</s>
+        <mark>Texto resaltado</mark>
 
-			<!-- Textos-->
-				<strong>
-			Texto que quiero resaltar
-			</strong>
-			<br>
-				<em>
-			Juego de matemáticas
-			</em>
-				<i>
-			Texto en cursiva
-			</i>
-				<u>
-			Texto subrayado
-			</u>
-			<hr>
-				<s>
-			Texto eliminado
-			</s>
-				<mark>
-			Texto resaltado
-			</mark>
-			<!--Listas-->
-				<ul>
-				<!-- unorder list-->
-					<li>
-				Lunes
-				</li>
-				<!-- list item-->
-					<li>
-				Martes
-				</li>
-					<li>
-				Miercoles
-				</li>
-					<li>
-				Jueves
-				</li>
-					<li>
-				Viernes
-			</li>
-			</ul>
+        <!--Listas-->
 
-				<ol type="I"> <li>Primero</li>
-				<li>Segundo</li>
-				<li>Tercero</li>
-				<li>Cuarto</li>
-				<li>Quinto</li>
-			</ol>
-			<!--Tablas-->
-			<table border="1">
-				<thead>
-					<tr>
-						<th>Nombre</th>
-						<th>Apellido</th>
-						<th>Cédula</th>
-						<th>Acción</th>
-					</tr>
+        <ul>
+            <li>Lunes</li>
+            <li>Martes</li>
+            <li>Miercoles</li>
+            <li>Jueves</li>
+            <li>Viernes</li>
+        </ul> <!--lista no ordenada-->
 
-				</thead>
+        <ol type="A">
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+            <li>Cuarto</li>
+            <li>Quinto</li>
+        </ol> <!--Lista ordenada-->
 
-				<tbody>
-					<tr>
-						<th>Edison</th>
-						<th>Cayambe</th>
-						<th>1213342342342</th>
-						<th>
-							<button>Editar</button>
-						</th>
-					</tr>
-					<tr>
-						<th>Angelo</th>
-						<th>Pujota</th>
-						<th>1726616541</th>
-						<th>
-							<button>Editar</button>
-						</th>
-					</tr>
-					<tr>
-						<th>Anthony</th>
-						<th>Cajamarca</th>
-						<th>0401191564</th>
-						<th>
-							<button>Editar</button>
-						</th>
-					</tr>
-					<tr>
-						<th>Jofre</th>
-						<th>Arias</th>
-						<th>175317624</th>
-						<th>
-							<button>Editar</button>
-						</th>
-					</tr>
+        <ol type="i">
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+            <li>Cuarto</li>
+            <li>Quinto</li>
+        </ol> <!--Lista ordenada-->
 
-				</tbody>
-			</table>
-			<!--Contenedores HTML-->
-			<div>
-				<button>Actualizar</button>
-				<button>Eliminar</button>
-				<button>Buscar</button>
+        <!--Tablas-->
 
-			</div>
-			<!-- header,body.nav,section-->
-			<!--Formularios-->
-			<form action="https://www.google.com">
-				<h1>Estudiante</h1>
-				<label for="id_nombre1">Nombre:</label>
-				<input id="id_nombre1" type="text" placeholder="Nombre">
-				<label for="id_email">Email</label>
-				<input id="id_email" type="email" placeholder="email">
-				<label for="id_fecha_nacimiento">Fecha de Nacimiento</label>
-				<input id="id_fecha_nacimiento" type="date">
-				<label for="id_password">Password</label>
-				<input id="id_password" type="password">
-				<button>Guardar</button>
-			</form>
-			<!--Multimedia-->
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png" alt="No se pudo presentar la imagen" width="400">
-			<img src="./img/Nubecita.jpg" alt="">
-			<video controls>
-				<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-			</video>
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/watch?v=TvVtYaqCni8&list=RDTvVtYaqCni8&start_radio=1" frameborder="0"></iframe>
+        <table border="1">
+            <thead>
+                <tr> <!-- elemento filas-->
+                    <th>Nombre</th> <!-- elemento columnas-->
+                    <th>Apellido</th>
+                    <th>Cédula</th>
+                    <th>Acción</th>
+                </tr>
+            </thead> <!--encabezado-->
+            <tbody>
+                <tr>
+                    <th>Joffre</th>
+                    <th>Arias</th>
+                    <th>1717727373</th>
+                    <th><button>Editar</button></th>
+                </tr>
+                <tr>
+                    <th>Dario</th>
+                    <th>Andino</th>
+                    <th>1751513452</th>
+                    <th><button>Editar</button></th>
+                </tr>
+                <tr>
+                    <th>Kevin</th>
+                    <th>Cruz</th>
+                    <th>1782739484</th>
+                    <th><button>Editar</button></th>
+                </tr>
+                <tr>
+                    <th>Kaioxs</th>
+                    <th>Cajamarca</th>
+                    <th>1273829920</th>
+                    <th><button>Editar</button></th>
+                </tr>
+            </tbody> <!--filas que la componen-->
+        </table>
 
-		</section>
-		<aside>
-			<!-- Esta destinado para programar contenido lateral como baners-->
+        <!-- Contenedores HTML-->
 
-		</aside>
+        <div>
+            <button>Actualizar</button>
+            <button>Eliminar</button>
+            <button>Guardar</button>
+        </div>
 
-		<footer>
-			<!--Para programar mi pie de la página web-->
-			Av. America entre la gasta y Bolivia
-			<br>
-			Todos los derechos reservados
-		</footer>
-	</body>
+        <!-- header, body, nav, section -->
+
+        <!-- formularios-->
+
+        <form action="https://www.google.com">
+            <h1>Estudiante</h1>
+            <label for="id_name">Nombre:</label>
+            <input id="id_name" type="text">
+            <label for="id_email">Email:</label>
+            <input id="id_email" type="email">
+            <label for="id_date">Fecha Nacimiento:</label>
+            <input id="id_date" type="date">
+            <label for="id_password">Password:</label>
+            <input id="id_password" type="password">
+            <button>Guardar</button>
+        </form>
+
+        <!-- Multimedia-->
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png" alt="No se puedo presentar la imagen" width="300" height="200">
+        <img src="./img/1.gif" alt="No se puedo presentar la imagen" width="300" height="200">
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+
+    </section>
+
+    <aside></aside>
+
+    <footer>
+        Av. America entre la gasca y Bolivia
+        <br>
+        Todos los derechos reservados
+    </footer>
+</body>
 
 </html>
